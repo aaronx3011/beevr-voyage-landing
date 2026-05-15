@@ -257,13 +257,13 @@ const Portfolio = () => {
       tag: "Neuroeducación & Gamificación",
       title: "Fly Bee Real",
       description: "Una experiencia educativa de vanguardia que sumerge al usuario en el microcosmos de las abejas. Hemos diseñado esta APK utilizando mecánicas de estimulación de dopamina, transformando el aprendizaje biológico en un proceso adictivo y memorable.",
-      image: "/src/assets/images/regenerated_image_1778704251987.jpg"
+      image: "/images/regenerated_image_1778704251987.jpg"
     },
     {
       tag: "AI & Sports",
       title: "Jessica: Asistente Deportiva",
       description: "Figura digital con acceso a data global de fútbol en tiempo real. Ofrece análisis táctico, estadísticas avanzadas y asesoramiento instantáneo, redefiniendo la interacción con el fan.",
-      image: "/src/assets/images/regenerated_image_1778699944824.png"
+      image: "/images/regenerated_image_1778699944824.png"
     }
   ];
 
@@ -272,19 +272,19 @@ const Portfolio = () => {
       title: "Optimum Spine",
       description: "APK interactiva para la educación sobre salud espinal y bienestar.",
       icon: Monitor,
-      image: "/src/assets/images/regenerated_image_1778704249389.jpg"
+      image: "/images/regenerated_image_1778704249389.jpg"
     },
     {
       title: "Music Box Tingilingi",
       description: "Fusión de juego y creación sonora en formato APK interactivo.",
       icon: MessageSquare,
-      image: "/src/assets/images/regenerated_image_1778704250485.png"
+      image: "/images/regenerated_image_1778704250485.png"
     },
     {
       title: "Project Orion",
       description: "Catálogo interactivo de equipos de sonido con exploración técnica visual.",
       icon: Cpu,
-      image: "/src/assets/images/regenerated_image_1778718725775.png"
+      image: "/images/regenerated_image_1778718725775.png"
     }
   ];
 
