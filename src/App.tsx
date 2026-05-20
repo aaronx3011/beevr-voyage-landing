@@ -57,8 +57,8 @@ const Navbar = ({ lang, setLang }: { lang: Lang; setLang: (l: Lang) => void }) =
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-[#030712]/80 backdrop-blur-md border-b border-white/10" : "bg-transparent border-b border-white/5"}`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="flex justify-between items-center h-24">
-          <div className="flex items-center gap-3">
-            <Logo className="h-10 w-auto" />
+          <div className="flex items-center w-full max-w-[180px] sm:max-w-[260px] md:max-w-[340px]">
+            <HeroLogo className="w-full h-auto" />
           </div>
 
           <div className="hidden md:flex items-center gap-6 text-[10px] uppercase font-bold tracking-[0.2em] text-gray-400">
@@ -485,7 +485,7 @@ const Footer = () => {
 };
 
 export default function App() {
-  const [lang, setLang] = useState<Lang>("es");
+  const [lang, setLang] = useState<Lang>("en");
 
   useEffect(() => {
     document.documentElement.classList.add("dark");
